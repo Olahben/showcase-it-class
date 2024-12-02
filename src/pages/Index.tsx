@@ -19,7 +19,7 @@ const Index = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <ProjectCard
             title="GlanceThing"
             description="Et populært GitHub-prosjekt med nesten 200 stjerner som forbedrer Spotify Car Thing med innovative funksjoner og forbedret brukeropplevelse."
@@ -31,6 +31,10 @@ const Index = () => {
           <ProjectCard
             title="HotelWare"
             description="En komplett Blazor/C# applikasjon for varehotell med integrert betalingsløsning, booking-system og lagerstyring. Brukes aktivt av flere varehoteller."
+          />
+          <ProjectCard
+            title="Eika Nettverksinfrastruktur"
+            description="Et omfattende prosjekt hvor Sindre designet og implementerte en komplett nettverksløsning for Eika, inkludert sikkerhetskonfigurasjoner, redundans og skalerbar arkitektur."
           />
         </div>
 

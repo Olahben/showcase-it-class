@@ -12,28 +12,34 @@ const Index = () => {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            Welcome to Our IT Class
+            Velkommen til vår IT-klasse
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Discover the amazing projects our students have created through hands-on
-            learning and creative problem-solving.
+            Oppdag de fantastiske prosjektene våre elever har laget gjennom praktisk læring og kreativ problemløsning.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <ProjectCard
-            title="Student Portfolio Platform"
-            description="A collaborative platform where students can showcase their work and connect with potential employers."
+            title="Elevportefølje-plattform"
+            description="En samarbeidsplattform hvor elever kan vise frem arbeidet sitt og komme i kontakt med potensielle arbeidsgivere."
           />
           <ProjectCard
-            title="Smart Learning Dashboard"
-            description="An interactive dashboard that helps students track their progress and manage their learning journey."
+            title="Smart Læringsoversikt"
+            description="Et interaktivt dashbord som hjelper elever med å følge fremgangen sin og administrere læringsreisen."
           />
           <ProjectCard
-            title="Community Forum"
-            description="A space for students to share knowledge, ask questions, and help each other grow."
+            title="Fellesskapsforum"
+            description="Et rom hvor elever kan dele kunnskap, stille spørsmål og hjelpe hverandre med å vokse."
           />
         </div>
+
+        <footer className="border-t pt-8 mt-16">
+          <div className="text-center text-gray-600">
+            <p className="mb-2">Utviklet av Ola, Erik, Marius og Sindre</p>
+            <p className="text-sm">&copy; 2024 IT-klassen. Alle rettigheter forbeholdt.</p>
+          </div>
+        </footer>
       </div>
     </div>
   );

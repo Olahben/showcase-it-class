@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-sky-50 to-white">
       <div className="max-w-6xl mx-auto px-4 py-16">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -21,8 +21,8 @@ const Index = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <ProjectCard
-            title="Elevportefølje-plattform"
-            description="En samarbeidsplattform hvor elever kan vise frem arbeidet sitt og komme i kontakt med potensielle arbeidsgivere."
+            title="GlanceThing"
+            description="Et populært GitHub-prosjekt med nesten 200 stjerner som forbedrer Spotify Car Thing med innovative funksjoner og forbedret brukeropplevelse."
           />
           <ProjectCard
             title="Smart Læringsoversikt"

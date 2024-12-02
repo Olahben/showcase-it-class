@@ -25,12 +25,12 @@ const Index = () => {
             description="Et populært GitHub-prosjekt med nesten 200 stjerner som forbedrer Spotify Car Thing med innovative funksjoner og forbedret brukeropplevelse."
           />
           <ProjectCard
-            title="Smart Læringsoversikt"
-            description="Et interaktivt dashbord som hjelper elever med å følge fremgangen sin og administrere læringsreisen."
+            title="CryptoBot Pro"
+            description="En avansert handelsbot som utfører MEV-transaksjoner og kryptovalutahandel, som har generert betydelig fortjeneste gjennom smart arbitrasje og frontrunning-strategier."
           />
           <ProjectCard
-            title="Fellesskapsforum"
-            description="Et rom hvor elever kan dele kunnskap, stille spørsmål og hjelpe hverandre med å vokse."
+            title="HotelWare"
+            description="En komplett Blazor/C# applikasjon for varehotell med integrert betalingsløsning, booking-system og lagerstyring. Brukes aktivt av flere varehoteller."
           />
         </div>
 

@@ -12,18 +12,18 @@ const Index = () => {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            Velkommen til vår IT-klasse
+            Velkommen til 2ITA! 🚀
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Oppdag de fantastiske prosjektene våre elever har laget gjennom
-            praktisk læring og kreativ problemløsning.
+            I programfaget Informasjonsteknologi får du mye kompetanse
+            innen både IT-utvikling og UT-drift, samt erfaring i jobb.
           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <ProjectCard
             title="GlanceThing"
-            description="Et populært GitHub-prosjekt med nesten 200 stjerner som forbedrer Spotify Car Thing med innovative funksjoner og forbedret brukeropplevelse."
+            description="Et GitHub prosjekt med nesten 200 stjerner som gjør din Spotify CarThing til en skjerm med raske handlinger for å styre musikk, og kjøre egendefinerte kommandoer og programmer. Laget av Erik."
             image="https://github.com/BluDood/GlanceThing/raw/main/.github/assets/glancething.png"
           />
           <ProjectCard
@@ -44,7 +44,7 @@ const Index = () => {
           <div className="text-center text-gray-600">
             <p className="mb-2">Utviklet av Ola, Erik, Marius og Sindre</p>
             <p className="text-sm">
-              &copy; 2024 IT-klassen. Alle rettigheter forbeholdt.
+              &copy; 2024 Mailand 2ITA. Alle rettigheter forbeholdt.
             </p>
           </div>
         </footer>

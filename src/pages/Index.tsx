@@ -1,5 +1,5 @@
-import ProjectCard from "@/components/ProjectCard";
-import { motion } from "framer-motion";
+import ProjectCard from '@/components/ProjectCard'
+import { motion } from 'framer-motion'
 
 const Index = () => {
   return (
@@ -15,7 +15,8 @@ const Index = () => {
             Velkommen til vår IT-klasse
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Oppdag de fantastiske prosjektene våre elever har laget gjennom praktisk læring og kreativ problemløsning.
+            Oppdag de fantastiske prosjektene våre elever har laget gjennom
+            praktisk læring og kreativ problemløsning.
           </p>
         </motion.div>
 
@@ -23,6 +24,7 @@ const Index = () => {
           <ProjectCard
             title="GlanceThing"
             description="Et populært GitHub-prosjekt med nesten 200 stjerner som forbedrer Spotify Car Thing med innovative funksjoner og forbedret brukeropplevelse."
+            image="https://github.com/BluDood/GlanceThing/raw/main/.github/assets/glancething.png"
           />
           <ProjectCard
             title="CryptoBot Pro"
@@ -41,12 +43,14 @@ const Index = () => {
         <footer className="border-t pt-8 mt-16">
           <div className="text-center text-gray-600">
             <p className="mb-2">Utviklet av Ola, Erik, Marius og Sindre</p>
-            <p className="text-sm">&copy; 2024 IT-klassen. Alle rettigheter forbeholdt.</p>
+            <p className="text-sm">
+              &copy; 2024 IT-klassen. Alle rettigheter forbeholdt.
+            </p>
           </div>
         </footer>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Index;
+export default Index

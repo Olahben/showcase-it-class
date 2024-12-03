@@ -17,7 +17,7 @@ const Index = () => {
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             I programfaget Informasjonsteknologi får du mye kompetanse
-            innen både IT-utvikling og UT-drift, samt erfaring i jobb.
+            innen både IT-utvikling og IT-drift, samt erfaring i jobb.
           </p>
         </motion.div>
 
@@ -30,6 +30,7 @@ const Index = () => {
           <ProjectCard
             title="CryptoBot Pro"
             description="En avansert handelsbot som utfører MEV-transaksjoner og kryptovalutahandel, som har generert betydelig fortjeneste gjennom smart arbitrasje og frontrunning-strategier."
+            image="https://davidhallin.com/images/run-script-on-terminal-open.png"
           />
           <ProjectCard
             title="HotelWare"
@@ -39,6 +40,26 @@ const Index = () => {
             title="Eika Nettverksinfrastruktur"
             description="Et omfattende prosjekt hvor Sindre designet og implementerte en komplett nettverksløsning for Eika, inkludert sikkerhetskonfigurasjoner, redundans og skalerbar arkitektur."
           />
+        </div>
+
+        <div className="m-auto flex flex-col flex-center mx-5">
+          <h1 className="text-4xl md:text-5xl font-bold text-primary text-center mb-4">
+            Hva venter du på?
+          </h1>
+          <p className="text-xl text-gray-600 max-w-2xl text-center mb-5">
+            Norge trenger titusenvis av IT-ansatte hvert eneste år. Din
+            IT-kompetanse er viktig for et fungerende fremtidig Norge. Søk
+            Informasjonsteknologi nå, og få et bredt spekter av ferdigheter
+            og gode muligheter for jobb og videre studier!
+          </p>
+          <button
+            onClick={() =>
+              window.open('https://youtube.com/watch?v=dQw4w9WgXcQ')
+            }
+            className="px-8 py-4 border text-xl"
+          >
+            Søk
+          </button>
         </div>
 
         <footer className="border-t pt-8 mt-16">

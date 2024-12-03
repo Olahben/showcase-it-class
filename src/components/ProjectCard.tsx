@@ -24,8 +24,8 @@ const ProjectCard = ({
         className
       )}
     >
-      <div className="aspect-video rounded-md mb-4">
-        <img src={image} className="object-cover" alt={title} />
+      <div className="rounded-md mb-4">
+        <img src={image} className="object-cover rounded-md" alt={title} />
       </div>
       <h3 className="text-xl font-semibold mb-2 text-primary">{title}</h3>
       <p className="text-gray-600">{description}</p>

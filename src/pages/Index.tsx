@@ -24,6 +24,7 @@ const Index = () => {
           <ProjectCard
             title="GlanceThing"
             description="Et populært GitHub-prosjekt med nesten 200 stjerner som forbedrer Spotify Car Thing med innovative funksjoner og forbedret brukeropplevelse."
+            image="https://github.com/BluDood/GlanceThing/raw/main/.github/assets/glancething.png"
           />
           <ProjectCard
             title="CryptoBot Pro"

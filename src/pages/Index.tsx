@@ -6,11 +6,12 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-sky-50 to-white">
       <div className="max-w-6xl mx-auto px-4 py-16">
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1 }}
           className="text-center mb-16"
         >
+          <img src="/icon-192.png" alt="" className="m-auto h-20 mb-5" />
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
             Velkommen til 2ITA! 🚀
           </h1>
